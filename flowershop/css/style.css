@@ -25,4 +25,6 @@ header{
 main{
     margin-top: 20px;
 }
-
+#hamberger{
+    line-height: 90px;
+}
