@@ -9,9 +9,10 @@ header{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #a2845e;
-    width: 393px;
+    width: 300px;
     margin-top: 50px;
     padding-bottom: 0;
+    margin-left: 45px;
 }
 #Flowericon{
     padding-bottom: 0px;
