@@ -1,27 +1,139 @@
 @charset "utf-8";
+header,#main{
+    display: flex;
+}
+#main0{
+  display: flex;
+    margin-left: 40px;
+}
+.ta{
+    margin-left: -315px;
+}
+#display3{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+header{
+    margin-left: 130px
+}
+#display{
+    margin-right: 400px;
+}
+#display1{
+    margin-right: 30px
+}
+#display2,#display1{
+    margin-left: 50px;
+}
+.z{
+    width: 200px;
+}
+.z0{
+    width: 970px;
+}
+#content{
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+#display5{
+    margin: 5px;
+}
+footer{
+    margin-top: 80px;
+    margin-left: 25px;
+}
+#content2{
+    width: 600px;
+    margin: 0 auto;
+}
+h2{
+    margin-left: 35px
+}
+.hr{
+    margin-top: -20px;
+    width: 100px;
+    margin-left: 265px;
+}
+@import url("common.css");
+@media screen and (max-width:390px){
+    header{
+    display: flex;
+}
 body{
-    width:360px;
-    margin: 0px auto;
-    background-color: #ffedf4;
+    background-color: rgb(189, 223, 223);
+}
+#main{
+    display: block;
+    margin-top: 40px;
+    margin-left: -4px;
+}
+#main0{
+    display:block;
+    margin-left: -10px;
+}
+.ta{
+    margin-left: 2px;
+    margin-top: 10px;
+}
+#display3{
+    margin-top: 20px;
+    margin-left: 25px;
     text-align: center;
 }
 header{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #a2845e;
-    width: 360px;
-    margin-top: 50px;
-    padding-bottom: 0;
+    margin-left: 10px;
+    text-align: center;
 }
-#Flowericon{
-    padding-bottom: 0px;
-    margin-bottom: 0;
+#display{
+    margin-right: 100px;
 }
-#shop{
-    margin-top: -50px;
-    margin-left: 150px;
+#display1{
+    margin-right: 5px;
 }
-main{
-    margin-top: 20px;
+#display2,#display1{
+    margin-left: 40px;
 }
+.z{
+    width: 370px;
+}
+.z0{
+    width: 390px;
+    margin-left: -600px;
+}
+#content{
+    width: 970px;
+    margin: 0 auto;
+    
+}
+footer{
+    margin-top: 80px;
+    margin-left: 10px;
+    text-align: center;
+}
+#content2{
+    width: 390px;
+    margin: 0 auto;
+    margin-left: -14px;
 
+}
+h2{
+    margin-left: 10px;
+    text-align: center;
+}
+#display5{
+margin-left: 20px;
+line-height: 10px;
+margin-bottom: 40px;
+text-align: center;
+}
+#display4{
+    width: 380px;
+    margin-left: 26px;
+}
+.hr{
+    margin-top: -20px;
+    width: 90px;
+    margin-left: 154px;
+}
+}
