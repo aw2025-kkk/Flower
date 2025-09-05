@@ -14,7 +14,7 @@ header,#main{
     margin-top: 20px;
 }
 header{
-    margin-left: 130px
+    margin-left: 130px;
 }
 #display{
     margin-right: 400px;
@@ -46,9 +46,10 @@ footer{
 #content2{
     width: 600px;
     margin: 0 auto;
+    text-align: center;
 }
 h2{
-    margin-left: 35px
+    margin-left: 35px;
 }
 .hr{
     margin-top: -20px;
@@ -115,6 +116,7 @@ footer{
     width: 390px;
     margin: 0 auto;
     margin-left: -14px;
+    text-align: left;
 
 }
 h2{
@@ -129,7 +131,7 @@ text-align: center;
 }
 #display4{
     width: 380px;
-    margin-left: 26px;
+    margin-left: 20px;
 }
 .hr{
     margin-top: -20px;
